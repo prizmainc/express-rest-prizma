@@ -2,9 +2,9 @@ import * as jwt from "jsonwebtoken";
 import * as oracle from "oracledb";
 
 const config = {
-    user: "fmsoradbadmin",
-    password: "Penola3#Craft",
-    connectString: "fmsoradbins.c5ya5a8qzhtp.ap-southeast-2.rds.amazonaws.com:1521/FMSDB"
+    user: "<user>",
+    password: "<password>",
+    connectString: "<connectString>"
 };
 
 export class AuthModel {
