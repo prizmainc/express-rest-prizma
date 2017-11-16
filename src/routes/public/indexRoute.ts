@@ -44,11 +44,11 @@ export class IndexRoute extends BaseRoute {
      */
     public index(req: Request, res: Response, next: NextFunction) {
         //set custom title
-        this.title = "Home | express-rest-jwt-type-fw";
+        this.title = "Home | express-rest-prizma";
 
         //set message
         let options: Object = {
-            "message": "Welcome to express-rest-jwt-type-fw"
+            "message": "Welcome to express-rest-prizma"
         };
 
         //render template
