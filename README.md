@@ -22,13 +22,26 @@ Enjoy express typescript rest with oracle and jwt !!!
 
 # notes for express-rest-prizma
 
-oracle connect sample is in authModel.ts
-replace below code with real connection detals
-const config = {
-    user: "<user>",
-    password: "<password>",
-    connectString: "<connectString>"
-};
+1. http://localhost:3002/auth?username=michel&password=1
+   will send an jwt token
+
+   http://localhost:3002/admin?token=Bearer <token>
+   will not granted
+
+   http://localhost:3002/user?token=Bearer <token>
+   will granted
+
+
+2. oracle connect sample is in authModel.ts
+   replace below code with real connection detals
+    const config = {
+        user: "<user>",
+        password: "<password>",
+        connectString: "<connectString>"
+    };
+
+   http://localhost:3002/auth2
+   will print a user data in console which rendered from oracle connection.
 
 
 

@@ -1,4 +1,4 @@
-import { NextFunction, Request, Response } from "express";
+import {NextFunction, Request, Response} from "express";
 
 /**
  * Constructor
@@ -20,7 +20,7 @@ export class BaseRoute {
    */
   constructor() {
     //initialize variables
-    this.title = "express-rest-jwt-type-fw";
+    this.title = "express-rest-prizma";
     this.scripts = [];
   }
 
